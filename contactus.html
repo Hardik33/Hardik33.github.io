@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University web page tutorial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">,<img src="eduford_img//logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="file:///E:/website%20project/index.html">HOME</a></li>
+                    <li><a href="file:///E:/website%20project/about.html">ABOUT</a></li>
+                    <li><a href="file:///E:/website%20project/course.html">COURSE</a></li>
+                    <li><a href="file:///E:/website%20project/blog.html">BLOG</a></li>
+                    <li><a href="file:///E:/website%20project/contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text_box1">
+            
+            <h1>Enroll For Our Various Online Courses Anywhere From The World</h1><BR>
+        </div>
+    </section>
+
+    <section class="contact-col">
+        <br>
+        <br><br>
+        <center>
+        <form action="">
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="text" placeholder="Enter E-mail Address" required>
+        <input type="text" placeholder="Enter Your Subject" required>
+        <textarea rows="8" placeholder="Message" required></textarea><br>
+        <center><button type="submit" class="hero-btn red-btn">Send Message</button></center>
+        </Form>
+        </center>
+    </section>
+
+    <!--------------footer------------>
+    <section class="footer"><br><br>
+            <div class="icons">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-facebook-square"></i>
+            </div>
+            <p>Made By <i class="fa fa-laptop"></i> Hardik Jagtap</p>
+    </section>
+    <!-----javascript------------>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function ShowMenu() {
+            navlinks.style.right = "0";
+        }
+
+        function HideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

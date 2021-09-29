@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University web page tutorial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">,<img src="eduford_img\\logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="file:///E:/website%20project/index.html">HOME</a></li>
+                    <li><a href="file:///E:/website%20project/about.html">ABOUT</a></li>
+                    <li><a href="file:///E:/website%20project/course.html">COURSE</a></li>
+                    <li><a href="file:///E:/website%20project/blog.html">BLOG</a></li>
+                    <li><a href="file:///E:/website%20project/contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text_box1">
+            <h1>Our Certificate & Online Programs For 2021 </h1>
+        </div>
+    </section>
+<!------------blog page-->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="eduford_img//certificate.jpg">
+            <h2>Our Certificate & online Programs For 2021</h2>
+            <p> Open Learn online courses are available in a wide range of subjects across the OU curriculum. Stay home and study virtually over 900 best free courses with free certificates on OpenLearn. Moreover, you can access course material at any time. OpenLearn courses are taught by the best professors.</p>
+            <br>
+            <p> In the 2021 Online Education Trends Report conducted by BestColleges, over 1,800 students, both remote learners (60%) and online students (30%) cited COVID-19 as the top motivator for choosing an online format, whereas online program graduates (27%) and prospective online students (34%) cited flexibility and convenience as the top motivator.</p>
+            <br>
+        </div>
+
+        <div class="blog-right">
+            <h3>post categories</h3>
+            <div>
+                <span>Bussiness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+     <!--------------footer------------>
+     <section class="footer">
+        <div class="icons">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-facebook-square"></i>
+        </div>
+        <p>Made By <i class="fa fa-laptop"></i> Hardik Jagtap</p>
+    </section>
+    <!--------------javascript------------>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function ShowMenu() {
+            navlinks.style.right = "0";
+        }
+
+        function HideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
